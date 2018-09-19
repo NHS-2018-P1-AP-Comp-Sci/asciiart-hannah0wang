@@ -1,21 +1,64 @@
-/**
- * Unit 1 Project
- * 
- * In this project you have the opportunity to create a piece of artwork using ASCII 
- * (American Standard Code for Information Interchange). Using the already created file 
- * named `ASCIIArt.java` write a program that outputs your artwork to the console. 
- * The goal of this project is to use ONLY what we have learned in Unit 1 to create 
- * anything you would like so be creative (and school appropriate). Artwork must also have a caption describing what it's depicting.  
- * 
- * For those of you who have dabbled in coding before, try to contain your code to 
- * just what we have discussed in this unit.  
- * 
- * @author Mr. Rasmussen 
- *
- */
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
+
+	public static void main(String[] args) {
+		//Spotted cat code:
+		catTail();
+		catBody();
+		animalLegs();
+		spotted();
+		System.out.println("cat.");
+		deadFish();
+		deadFish();
+		System.out.println();
+		//Spotted dog code:
+		dogBody();
+		animalLegs();
+		spotted();
+		System.out.println("dog.");
+		bone();
+		bone();
+	}
+	
+	public static void catBody() {
+		System.out.println("  ) )  _' ' ' ' ' -_ /^______^\\   _____________");
+		System.out.println("  ( ( /    O    O  \\|   o  o  |  |             |");
+		System.out.println("  \\ \\/      O       \\  >  ^ < / <    \"MEOW\"    |");
+		System.out.println("   \\ \\ O           \\/  +…………+    |_____________|");
+		System.out.println("    \\   | ____O    |");
+	}
+	
+	public static void catTail() {
+		System.out.println("  _");
+		System.out.println(" ( \\");
+		System.out.println("  ) )");
+		System.out.println(" ( (");
+	}
+	
+	public static void animalLegs() {
+		System.out.println(("    / / /     / / /"));
+		System.out.println(("   / /_/_    / /_/_"));
+		System.out.println(("  (_____))  (_____))"));
+	}
+	
+	public static void dogBody() {
+		System.out.println("                      _____         ___________");
+		System.out.println("    /_' ' ' ' ' ' '  / / o \\____   |           |");
+		System.out.println(" / /  O       O     /_/         \\ <    \"WOOF\"  |");
+		System.out.println("/ /\\    \\ O         \\   ______\\_/  |___________|");
+		System.out.println("    \\  O |____    O |");
+	}
+	
+	public static void spotted() {
+		System.out.println();
+		System.out.print("A spotted ");
+	}
+	
+	public static void deadFish() {
+		System.out.print("><))))x> ");
+	}
+
+	public static void bone() {
+		System.out.print(">-----< ");
 	}
 }
